@@ -1,0 +1,41 @@
+.body{
+    margin:0px;
+    padding: 0px;
+    background-color: #48AEF0;
+}
+.gallery{
+    display:flex;
+    flex-wrap: wrap;   
+    flex-direction: row;
+    justify-content: space-around;  
+}
+.title{
+    background-color: rgba(241, 237, 237, 0.322);
+    font-size: xx-large;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    top: 125px;
+}
+h5{
+    background-color: rgb(155, 155, 236);
+    position:relative;
+    top:110px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+}
+.gallery_item{
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 20%;
+    margin:10px;
+
+}
+.img{
+    border-radius: 15px;
+    width:100%
+}

@@ -1,0 +1,27 @@
+.mostrar_pokemon{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:80%;
+    /*margin-left: ;
+    margin-right: ;*/
+    padding-left:10%;
+    padding-right: 10%;
+    justify-content: space-around; 
+    background-color: bisque; 
+}
+.pokeGalery{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:80%;
+    /*margin-left: ;
+    margin-right: ;*/
+    padding-left:10%;
+    padding-right: 10%;
+    justify-content: space-around; 
+    background-color: rgb(255, 0, 0);
+    background-image: url(../assets/pokeball.png);
+    background-size: 50px 50px;
+    background-repeat: space;
+}

@@ -17,22 +17,16 @@ let moviesLarg = [];
 
 for(let index = 0; index < movies.length; index++){
     movie = movies[index];
-    if(movie.durationInMinutes < 100){
-        
-        moviesShort.push(movie);
-        
+    if(movie.durationInMinutes < 100){      
+        moviesShort.push(movie);       
     }
     if(movie.durationInMinutes >= 100 && movie.durationInMinutes <= 200){
         
         moviesMed.push(movie);
-        
-
     }
     if(movie.durationInMinutes > 200){
         
         moviesLarg.push(movie);
-        
-
     }
     
 }

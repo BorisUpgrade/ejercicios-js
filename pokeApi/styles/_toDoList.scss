@@ -1,0 +1,37 @@
+.toDoList{
+    position: fixed;
+    background-color: aliceblue;
+    border-radius: 10px;
+    max-width: 200px;
+}
+.formulario-tareas{
+    text-align: center;
+}
+.input-tarea{
+    width: 80%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 5px;
+}
+.btn-agregar{
+    width: 50%;
+    margin-left:25%;
+    margin-right: 25%;
+    margin-top: 3px;
+    background-color: rgb(255, 198, 157);
+    border-radius: 25px;
+}
+h3{
+    text-align: center;
+}
+.tarea{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.formulario-tareas{
+    display:flex;
+    flex-direction: column;
+}

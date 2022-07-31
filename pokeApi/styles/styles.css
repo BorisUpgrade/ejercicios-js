@@ -1,0 +1,222 @@
+.formulario {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  background-color: blueviolet;
+}
+
+.barra_busqueda {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 10px;
+  width: 40%;
+  height: 50px;
+  border-width: 5px;
+  border-radius: 100px;
+  text-align: center;
+  font-size: x-large;
+}
+
+.boton_buscar {
+  height: 30px;
+  width: 35%;
+  border-radius: 50px;
+  margin-left: 32.5%;
+  margin-right: 32.5%;
+}
+
+.mostrar_pokemon {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 80%;
+  /*margin-left: ;
+  margin-right: ;*/
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: space-around;
+  background-color: bisque;
+}
+
+.pokeGalery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 80%;
+  /*margin-left: ;
+  margin-right: ;*/
+  padding-left: 10%;
+  padding-right: 10%;
+  justify-content: space-around;
+  background-color: rgb(255, 0, 0);
+  background-image: url(../assets/pokeball.png);
+  background-size: 50px 50px;
+  background-repeat: space;
+}
+
+.water {
+  background-image: url(../assets/water.avif);
+}
+
+.grass {
+  background-image: url(../assets/grass.jpg);
+}
+
+.fire {
+  background-image: url(../assets/fire.webp);
+}
+
+.bug {
+  background-image: url(../assets/bug.webp);
+  background-size: cover;
+  background-position: 40%;
+}
+
+.poison {
+  background-image: url(../assets/poison.jpg);
+}
+
+.normal {
+  background-color: rgb(209, 212, 212);
+}
+
+.ground {
+  background-image: url(../assets/ground.webp);
+}
+
+.electric {
+  background-image: url(../assets/electric.png);
+}
+
+.fairy {
+  background-image: url(../assets/fairy.jpg);
+}
+
+.fighting {
+  background-image: url(../assets/fighting.webp);
+  background-size: cover;
+  background-position: 40%;
+}
+
+.rock {
+  background-image: url(../assets/rock.jpg);
+}
+
+.psychic {
+  background-image: url(../assets/psychic.jpg);
+}
+
+.ghost {
+  background-image: url(../assets/ghost.webp);
+}
+
+.ice {
+  background-image: url(../assets/ice.jpg);
+}
+
+.dragon {
+  background-image: url(../assets/dragon.jpg);
+}
+
+.pokeGalery_item {
+  width: 200px;
+  text-align: center;
+  border-style: solid;
+  border-color: gray;
+  border-width: 10px;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+img {
+  max-height: 100px;
+  margin: 7%;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+body {
+  background-color: black;
+}
+
+h4 {
+  background-color: rgba(245, 245, 220, 0.712);
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.idPokemon {
+  background-color: rgb(43, 255, 0);
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.toDoList {
+  position: fixed;
+  background-color: aliceblue;
+  border-radius: 10px;
+  max-width: 200px;
+}
+
+.formulario-tareas {
+  text-align: center;
+}
+
+.input-tarea {
+  width: 80%;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 5px;
+}
+
+.btn-agregar {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 3px;
+  background-color: rgb(255, 198, 157);
+  border-radius: 25px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.tarea {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.formulario-tareas {
+  display: flex;
+  flex-direction: column;
+}
+
+.machaca {
+  width: 18%;
+  background-color: rgb(79, 162, 235);
+  font-size: 40px;
+  text-align: center;
+}
+
+/*.p_poison{
+    border: 3px dashed rgb(85, 85, 85);
+    border-radius: 50px;
+    color: rgb(85, 85, 85);
+    width: 55%;
+    margin-left: 20%;
+    padding:5px;
+
+}
+.p_grass{
+    border: 3px dashed rgb(115, 255, 34);
+    border-radius: 50px;
+    color: rgb(149, 255, 87);
+    width: 55%;
+    margin-left: 20%;
+    padding:5px;
+}*//*# sourceMappingURL=styles.css.map */

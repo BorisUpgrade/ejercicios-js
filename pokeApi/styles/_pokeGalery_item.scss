@@ -1,0 +1,31 @@
+.pokeGalery_item{
+    width: 200px;
+    text-align: center;
+    border-style: solid;
+    border-color: gray;
+    border-width: 10px;;
+    border-radius: 25px;
+    margin:10px;
+    
+
+
+}
+img{
+    max-height: 100px;
+    margin: 7%;
+    object-fit:scale-down;
+}
+
+body{
+    background-color: black;
+}
+h4{
+    background-color: rgba(245, 245, 220, 0.712);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.idPokemon{
+    background-color: rgb(43, 255, 0);
+    padding: 5px;
+    border-radius: 50px;
+}

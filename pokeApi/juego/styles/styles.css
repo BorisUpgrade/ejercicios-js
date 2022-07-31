@@ -1,0 +1,20 @@
+.cuadrado{
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+
+}
+.contenedor{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+}
+.digglet{
+    background-image: url(../assets/digglet.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
